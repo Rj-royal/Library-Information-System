@@ -12,7 +12,7 @@ def setup_db():
     conn.commit()
     return conn
 
-# 2. LOGIC FROM YOUR PROJECT 
+# 2. LOGIC 
 def late_fine_calculator(days):
     """Your original logic from p4.py"""
     if 0 < days <= 5:
